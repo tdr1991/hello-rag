@@ -37,8 +37,12 @@ python -B langchain-rag.py
 python -B rag-free.py
 ```
 may not work
+
 ![](assets/no-work.png)
+
 in the package of llama-index-llms-ollama is_chat_model=True，so  it request api/chat of ollama, this not work in my test;
 but when i set is_chat_model=False, it will request api/generate，this can work：
+
 ![](assets/work.png)
+
 so I have been created an issue: https://github.com/run-llama/llama_index/issues/11971#issuecomment-2000392935
