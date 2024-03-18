@@ -1,0 +1,5 @@
+llama-index-readers-file
+llama-index-vector-stores-postgres
+llama-index-embeddings-huggingface
+llama-index-llms-llama-cpp
+llama-cpp-python
